@@ -1,7 +1,7 @@
 let transactions = [];
 let myChart;
 
-fetch("/api/transaction")
+fetch("http://localhost:3001")
   .then(response => {
     return response.json();
   })
